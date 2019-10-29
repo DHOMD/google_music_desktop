@@ -16,6 +16,8 @@ var _electron = require('electron');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+window.customElements.upgrade = window.customElements.upgrade || function(){};
+
 global.isGPM = true;
 
 require('../../generic');
